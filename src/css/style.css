@@ -1,0 +1,28 @@
+body {
+	font-family: "trebuchet MS", garamond, verdana, helvetica, arial, sans-serif;
+	text-align: center;
+}
+
+hr {
+	display: none;
+}
+
+#container {
+	margin: 6em auto;
+	border: 6px solid #ccc;
+	padding: 2em;
+	width: 15em;
+	text-align: center;
+}
+
+#content-main {
+	font-size: 1.5em;
+}
+
+
+
+
+#copyright {
+	margin-top: 3em;
+	font-size: 0.7em;
+}
