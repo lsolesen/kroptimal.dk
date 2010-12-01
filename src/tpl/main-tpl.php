@@ -5,7 +5,7 @@
 <head>
   <title><?php echo $title; ?></title>
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-  <style type="text/css">@import "/css/style.css";</style>
+  <style type="text/css">@import "css/style.css";</style>
 </head>
 
 <body>
@@ -13,21 +13,15 @@
   <div id="branding">
     <h1>Kroptimal.dk</h1>
   </div>
-  
+
   <hr />
-  
-  <ul id="navigation-main">
-    <?php echo $navigation; ?>
-  </ul>
-	
-  <hr />
-  
+
   <div id="content-main">
     <?php echo $content_main; ?>
   </div>
-  
+
   <hr />
-  
+
   <div id="copyright">
     &copy; 2005-<?php echo date('Y'); ?> Linda Kruse
   </div>
